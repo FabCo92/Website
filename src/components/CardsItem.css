@@ -1,0 +1,15 @@
+.textunder{
+    margin: 2px;
+}
+
+.icon{
+    margin: 0 0 0 10px;
+}
+
+.cards-wrapper{
+    align-items: center;
+    width: 110px;
+    /* background: #fff; */
+}
+
+

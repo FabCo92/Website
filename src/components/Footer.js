@@ -5,21 +5,19 @@ import { Link } from 'react-router-dom'
 
 function Footer() {
   return (
-    <div className='footer-container'>
-      <section class='social-media'>
-        <div class='social-media-wrap'>
-          <small class='website-rights'>Fabian Seelert © 2020</small>
-          <div class='footer-links'>
-            <Link to="/Impressum" className="nav-links">
-                <u>Impressum</u>        
-            </Link>
-            <Link to="/Datenschutz" className="nav-links">
-                <u>Datenschutzerklärung</u>         
-            </Link>  
-          </div>
-        </div>
-      </section>
-    </div>
+    <>
+      <div className='footer-container'>
+        <div class='website-rights'>Fabian Seelert © 2020</div>
+        <ul class='footer-links'>
+          <li><Link to="/Impressum" className="foot-links">
+            <u>Impressum</u>
+          </Link></li>
+          <li><Link to="/Datenschutz" className="foot-links">
+            <u>Datenschutzerklärung</u>
+          </Link></li>
+        </ul>
+      </div>
+    </>
   );
 }
 

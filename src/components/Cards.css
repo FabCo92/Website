@@ -1,0 +1,27 @@
+.icon-hbox{
+    width: 100%;
+    align-items: center;
+    margin: 30px;
+    
+}
+
+.icon-hbox .cards{
+    display: inline-block;
+    color: #fff;
+    margin-right: 10px;
+
+}
+
+.cards * {
+    color: #fff;
+}
+
+
+.cards:hover{
+    background: #fff;
+    transition: all 1s ease-out;
+}
+
+.cards:hover *{
+    color: #54c5e8 !important;
+}
