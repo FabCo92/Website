@@ -25,3 +25,13 @@
 .cards:hover *{
     color: #54c5e8 !important;
 }
+
+@media screen and (max-width: 768px) {
+    .icon-hbox .cards{
+      display:flex;
+    }
+    .cards {
+        width: 110px;
+    }
+
+}

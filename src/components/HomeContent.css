@@ -108,6 +108,10 @@
       text-decoration: none;
     }
   
+    .btn-box {
+        display: flex;
+    }
+
     .btn {
       width: 100%;
     }
